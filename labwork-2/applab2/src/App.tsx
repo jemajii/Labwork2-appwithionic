@@ -62,6 +62,9 @@ const App: React.FC = () => (
           <Route path="/tab3">
             <Tab3 />
           </Route>
+          <Route path="/service">
+            <Service />
+          </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />
           </Route>
